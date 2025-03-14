@@ -65,9 +65,11 @@ export const getColumnDetail = () => {
 
           $("#js-postThumbnail").append(insertHtml);
         }
+        
+        const contents = json.body
 
         // 投稿内容を挿入
-        for (const content of json.body) {
+        for (const content of contents) {
           if (content.fieldId === "balloon") {
             /*
               パーツ - 吹き出し
