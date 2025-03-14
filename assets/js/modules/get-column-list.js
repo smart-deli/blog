@@ -96,7 +96,7 @@ export const getColumnList = (path, limit) => {
 
             const addItem = `
             <li class="c-card">
-              <a href="${path}post.html?id=${content.id}">
+              <a href="blog/${path}post.html?id=${content.id}">
                 <section class="c-card">
                   <div class="c-card__inner">
                     <div class="c-card__textContents">
